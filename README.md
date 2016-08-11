@@ -4,6 +4,13 @@ Automate chipotle group order to save a couple clicks
 After you add all of the emails the first time at https://order.chipotle.com/Invitational/Index/122
 
 ```js
+//install selenium 
+brew install selenium-server-standalone
+brew services start selenium-server-standalone
+
+//install chrome driver
+brew install chromedriver
+
 //navigate to the chipotle directory in your terminal
 ~/code/chipotle
 //install nightwatch globally
